@@ -51,3 +51,19 @@ Button,#edit_det_btn{
 Button:hover, #edit_det_btn:hover{
     background-color: rgb(120, 0, 120);  
 }
+
+#prev_queries_tbl, th, td {
+    border: 1px solid;
+    padding: 0.5%;
+    text-align: left;
+}
+
+#prev_queries_tbl
+{
+    width: 100%;
+}
+ 
+#prev_queries_tbl th{
+    background-color: #49C8FF;
+}
+
