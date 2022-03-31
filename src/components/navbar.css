@@ -1,0 +1,29 @@
+nav {
+    background-color: black;
+    color: white;
+}
+
+nav button{
+    background-color: black;
+    color: white;
+    border: none;    
+    font-size: large;
+    margin-right: 5%;
+    padding: 0.5%;
+}
+
+nav button:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+select{
+    background-color: black;
+    color: white;
+    font-size: large;
+    border: none;
+    padding: 0.5%;
+}
+
+select:hover{
+    background-color:rgb(59, 59, 59);
+}
