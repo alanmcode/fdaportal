@@ -3,16 +3,16 @@ nav {
     color: white;
 }
 
-nav button{
+.nav_btns{
     background-color: black;
     color: white;
     border: none;    
     font-size: large;
-    margin-right: 5%;
-    padding: 0.5%;
+    padding: 0.8%;
+    text-decoration: none;
+    float: right;
 }
-
-nav button:hover{
+.nav_btns:hover{
     background-color: rgb(59, 59, 59);
 }
 
@@ -21,7 +21,7 @@ select{
     color: white;
     font-size: large;
     border: none;
-    padding: 0.5%;
+    padding: 1%;
 }
 
 select:hover{

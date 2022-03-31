@@ -6,14 +6,20 @@ function Navbar(){
     return(
         <>
             <nav>
-                <button>Logout</button>
                 <select>
                     <option selected defaultChecked disabled>Language</option>
                     <option>English</option>
                     <option>French</option>
                     <option>Spanish</option>
                     <option>Hindi</option>
+                    
                 </select>
+                 
+                <Link class = 'nav_btns' to = "/login">Logout</Link>
+                <Link class = 'nav_btns' to = "/">Home</Link>
+
+                
+
             </nav>      
         </>
     )
