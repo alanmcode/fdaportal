@@ -20,7 +20,7 @@ function Prev_Queries(){
                     <td>15-03-2022 15:20</td>
                     <td>Need help with editing personal details</td>
                     <td>Yes</td>
-                    <td>Adya Aggarwal</td>
+                    <td>Adya</td>
                     <td>5/5</td>
                 </tr>
 

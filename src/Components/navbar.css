@@ -27,3 +27,7 @@ select{
 select:hover{
     background-color:rgb(59, 59, 59);
 }
+
+nav img{
+    size: 20%;
+}

@@ -1,6 +1,6 @@
 .links
 {
-    background-color: rgb(235, 235, 235); 
+    background-color: rgb(243, 243, 243); 
     padding: 2%;  
     color: black;
     text-decoration: none;
@@ -25,7 +25,7 @@
 }
 
 #home_profile{
-    background-color:rgb(235, 235, 235);
+    background-color:rgb(243, 243, 243);
     padding: 3%;
     width: fit-content;
     margin-left: 3%;
@@ -58,8 +58,7 @@ Button:hover, #edit_det_btn:hover{
     text-align: left;
 }
 
-#prev_queries_tbl
-{
+#prev_queries_tbl{
     width: 100%;
 }
  

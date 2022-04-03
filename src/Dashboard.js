@@ -7,7 +7,6 @@ function Dashboard(){
             <h1>Dashboard</h1>
             <Link to = "/">Home</Link><br></br>
             <Link to = "/chatbot">Chatbot</Link><br></br>
-      
         </div>
     )
 }

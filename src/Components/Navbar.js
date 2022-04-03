@@ -1,11 +1,13 @@
 import React,{useState} from "react";
 import { Link } from "react-router-dom";
 import './navbar.css'
+import fdm from '../img/fdm_logo.png';
 
 function Navbar(){
     return(
         <>
             <nav>
+                <img src = {fdm} width = '50px' alt="FDM"></img>
                 <select>
                     <option selected defaultChecked disabled>Language</option>
                     <option>English</option>
