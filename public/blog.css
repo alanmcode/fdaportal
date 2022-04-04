@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+    
+    --color-light: rgba(132, 139, 200, 0.18);
+  
+    --card-border-radius: 2rem;
+    
+    --card-padding:1.8rem;
+    
+    --box-shadow:0 2rem 3rem var(--color-light);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: none;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 14px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: poppins, sans-serif;
+    font-size: 0.88rem;
+    background-color: rgba(169, 167, 167, 0.323);
+    
+}
+
+a {
+    color: rgb(77, 165, 200);
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+h2{
+    font-weight: 800;
+    font-size: 1.6rem;
+}
+
+
+
+small{
+    font-size: 0.75rem;
+}
+
+.profile-photo{
+    width: 2.8rem;
+    height:2.8rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.text-muted{
+    color: #7d8da1;
+}
+
+p{
+    color: #677483;;
+}
+
+b{
+    color: rgb(77, 165, 200);
+}
+
+.recent-orders a {
+    text-align: center;
+    display: block;
+    color:  #7380ec;
+}
+
+.Dashboard{
+    margin-top: 1.4rem;
+    vertical-align: middle;
+}
+
+.Dashboard{
+    display: block;
+    position: absolute;
+
+}
+
+.Dashboard .recent-updates{
+    margin-top: 2rem;
+}
+
+.Dashboard .recent-updates h2{
+    margin-bottom: 0.8rem;
+}
+
+.Dashboard .recent-updates .updates{
+    background:  rgb(249, 246, 246);
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+}
+
+.Dashboard .recent-updates .updates:hover{
+    box-shadow: none;
+}
+
+.Dashboard .recent-updates .updates .update{
+    display:grid;
+    grid-template-columns: 2.6rem auto;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
