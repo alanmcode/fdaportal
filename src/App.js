@@ -1,8 +1,9 @@
+
 import React from 'react';
 import Home from './Home';
 import Login from './Login';
 import Dashboard from './Dashboard';
-import Chatbot from './Chatbot';
+import Chatbot from './Components/Chatbot/Chatbot';
 import Prev_Queries from './Prev_Queries';
 import Profile_Edit from './Profile_Edit';
 import { Route, Routes} from 'react-router-dom';
