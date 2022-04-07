@@ -12,16 +12,7 @@ const Form = () => {
               <section className='everythingInBox'>
                   <div className='FourBoxes'>
                       <div>
-                          <input className='IDchange' type="text" placeholder='Please enter new ID' />
-                      </div>
-                      <div>
-                          <input className='EMAILchange' type="text" placeholder='Please enter new Email' />
-                      </div>
-                      <div>
-                          <input className='NUMBERchange' type="text" placeholder='Please enter the new Phone Number' />
-                      </div>
-                      <div>
-                          <input className='ADDRESSchange' type="text" placeholder='Please enter the new Address' />
+                          <input className='PASSchange' type="password" placeholder='Please enter the new Password' />
                       </div>
                   </div>
                   <div className='bothBtns'>

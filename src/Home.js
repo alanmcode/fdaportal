@@ -15,7 +15,7 @@ function Home(){
                 <h4>Phone Number:</h4><p>9283529873</p>
                 <h4>Address:</h4><p>Flat 6, ABC Street <br></br>XYZ Road <br></br>London</p>       
 
-                <Button text = 'Reset Password'></Button>           
+                <Link id="edit_det_btn" to= '/Resetpass'>Reset Password</Link>           
             </div>
 
             <Link class = 'links' id = 'link_dashboard' to = "/dashboard"><h2>Dashboard</h2>Click here to view updates</Link>
