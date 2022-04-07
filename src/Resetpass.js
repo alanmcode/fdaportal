@@ -14,6 +14,9 @@ const Form = () => {
                       <div>
                           <input className='PASSchange' type="password" placeholder='Please enter the new Password' />
                       </div>
+                      <div>
+                          <input className='PASSchange' type="password" placeholder='Please confirm the new Password' />
+                      </div>
                   </div>
                   <div className='bothBtns'>
                       <button className='submitBtn' style={{color:"white"}} type="submit" value="POST">SUBMIT</button>
