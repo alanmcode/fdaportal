@@ -24,6 +24,7 @@ function App() {
         <Route path='/prev_queries' element={<Prev_Queries/>}/>
       </Routes>
       
+    
     </>
   );
 }

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
 
-#updates :root {
+:root {
     
     --color-light: rgba(132, 139, 200, 0.18);
   
@@ -12,7 +12,7 @@
 }
 
 
-#updates * {
+* {
     margin: 0;
     padding: 0;
     outline: 0;
@@ -22,11 +22,12 @@
     list-style: none;
     box-sizing: border-box;
 }
-#updates html{
+
+html{
     font-size: 14px;
 }
 
-#updates body{
+body{
     width: 100vw;
     height: 100vh;
     font-family: poppins, sans-serif;
@@ -35,68 +36,71 @@
     
 }
 
-#updates a {
+a {
     color: #49C8FF;
 }
 
-#updates img{
+img{
     display: block;
     width: 100%;
 }
 
-#updates h2{
+h2{
     font-weight: 800;
     font-size: 1.6rem;
 }
 
 
 
-#updates small{
+small{
     font-size: 0.75rem;
 }
 
-#updates .profile-photo{
+.profile-photo{
     width: 2.8rem;
     height:2.8rem;
     border-radius: 50%;
     overflow: hidden;
 }
 
-#updates .text-muted{
+.text-muted{
     color: #7d8da1;
 }
 
-#updates p{
+p{
     color: #677483;;
 }
 
-#updates b{
+b{
     color: #49C8FF;
 }
 
-#updates .recent-orders a {
+.recent-orders a {
     text-align: center;
     display: block;
     color:  #7380ec;
 }
 
-#updates .Dashboard{
+.Dashboard{
     margin-top: 1.4rem;
     vertical-align: middle;
+}
+
+.Dashboard{
     display: block;
     position: absolute;
 
 }
 
-#updates .Dashboard .recent-updates{
+.Dashboard .recent-updates{
     margin-top: 2rem;
 }
 
-#updates .Dashboard .recent-updates h2{
+.Dashboard .recent-updates h2{
     margin-bottom: 0.8rem;
 }
 
-#updates .Dashboard .recent-updates .updates{
+.Dashboard .recent-updates .updates{
     background:  rgb(249, 246, 246);
     padding: var(--card-padding);
     border-radius: var(--card-border-radius);
@@ -104,11 +108,11 @@
     transition: all 300ms ease;
 }
 
-#updates .Dashboard .recent-updates .updates:hover{
+.Dashboard .recent-updates .updates:hover{
     box-shadow: none;
 }
 
-#updates .Dashboard .recent-updates .updates .update{
+.Dashboard .recent-updates .updates .update{
     display:grid;
     grid-template-columns: 2.6rem auto;
     gap: 1rem;
