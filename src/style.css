@@ -1,3 +1,7 @@
+.flexbox{
+    display: flex;
+}
+
 .links
 {
     background-color: rgb(243, 243, 243); 
@@ -5,38 +9,37 @@
     color: black;
     text-decoration: none;
     font-size: large;
-    margin-top: 3%;
+    margin-top: 2%;
     text-align: center;
 }
 
-#link_chatbot{
-    float: right;
-    margin-right: 5%;
+#fb3_link_chatbot{
+    margin: 2%;
+    max-height: 200px;
 }
 
-#link_dashboard{
-    float: right;
-    margin-right: 3%;
+#fb2_link_dashboard{
+    margin: 2%;
+    max-height: 200px;
 }
 
-#link_prev_queries{
-    float: right;
-    margin-right: 5%;
+#fb4_link_prev_queries{
+    margin: 2%;
+    max-height: 200px;
 }
 
-#home_profile{
+#fb1_home_profile{
     background-color:rgb(243, 243, 243);
-    padding: 3%;
+    padding: 2%;
     width: fit-content;
-    margin-left: 3%;
-    margin-top: 3%;
+    margin: 2%;
     float: left;
 }
 
-#home_profile h4{
+#fb1_home_profile h4{
     margin-bottom: 0%;
 }
-#home_profile h2{
+#fb1_home_profile h2{
     margin-top: 0%;
 }
 

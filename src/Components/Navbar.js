@@ -7,14 +7,13 @@ function Navbar(){
     return(
         <>
             <nav>
-                <img src = {fdm} width = '50px' alt="FDM"></img>
+                <img src = {fdm}/>
                 <select>
                     <option selected defaultChecked disabled>Language</option>
                     <option>English</option>
                     <option>French</option>
                     <option>Spanish</option>
                     <option>Hindi</option>
-                    
                 </select>
                  
                 <Link class = 'nav_btns' to = "/login">Logout</Link>
