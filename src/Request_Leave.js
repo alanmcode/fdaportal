@@ -7,8 +7,6 @@ const Form = () => {
       <div className='blogContainer'>
           <form className='formBox'>
               <h1 style={{textAlign:"center", color:"white"}}>Request Leave</h1>
-              <Link to = "/">Home</Link><br></br>
-              <Link to = "/dashboard">Dashboard</Link><br></br>
               <section className='everythingInBox'>
                   <div className='ThreeBoxes'>
                       <div>

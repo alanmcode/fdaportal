@@ -24,6 +24,11 @@
     margin-right: 5%;
 }
 
+#link_request_leave{
+    float: right;
+    margin-right: 5%;
+}
+
 #home_profile{
     background-color:rgb(243, 243, 243);
     padding: 3%;
