@@ -6,26 +6,23 @@ const Form = () => {
     return (
       <div className='blogContainer'>
           <form className='formBox'>
-              <h1 style={{textAlign:"center", color:"white"}}>Edit Details</h1>
+              <h1 style={{textAlign:"center", color:"white"}}>Request Leave</h1>
               <Link to = "/">Home</Link><br></br>
               <Link to = "/dashboard">Dashboard</Link><br></br>
               <section className='everythingInBox'>
-                  <div className='FourBoxes'>
+                  <div className='ThreeBoxes'>
                       <div>
-                          <input className='IDchange' type="text" placeholder='Please enter new ID' />
+                          <input className='STARTdate' type="text" placeholder='Start of leave (DD/MM/YY)' />
                       </div>
                       <div>
-                          <input className='EMAILchange' type="email" placeholder='Please enter new Email' />
+                          <input className='ENDdate' type="text" placeholder='End of leave (DD/MM/YY)' />
                       </div>
                       <div>
-                          <input className='NUMBERchange' type="number" placeholder='Please enter the new Phone Number' />
-                      </div>
-                      <div>
-                          <input className='ADDRESSchange' type="text" placeholder='Please enter the new Address' />
+                          <input className='REASON' type="text" placeholder='State reason for leave' />
                       </div>
                   </div>
                   <div className='bothBtns'>
-                      <button className='submitBtn' style={{color:"white"}} type="submit" value="POST">SUBMIT</button>
+                      <button className='submitBtn' style={{color:"white"}} type="submit" value="POST">SEND</button>
                       <button className='cancelBtn' style={{color:"white"}} type="reset">CANCEL</button>
                   </div>
               </section>

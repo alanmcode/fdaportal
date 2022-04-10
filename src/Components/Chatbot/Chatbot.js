@@ -10,10 +10,10 @@ const Form = () => {
               <section className='everythingInBox'>
                   <div className='twoBoxes'>
                       <div>
-                          <input className='subject' type="text" placeholder='Subject' />
+                          <input required className='subject' type="text" placeholder='Subject' />
                       </div>
                       <div>
-                          <textarea className='queryBox' placeholder='Please input your query here..'/>
+                          <textarea required className='queryBox' placeholder='Please input your query here..'/>
                       </div>
                   </div>
                   <div className='bothBtns'>
