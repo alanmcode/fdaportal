@@ -12,10 +12,10 @@ const Form = () => {
               <section className='everythingInBox'>
                   <div className='FourBoxes'>
                       <div>
-                          <input className='PASSchange' type="password" placeholder='Please enter the new Password' />
+                          <input required className='PASSchange' type="password" placeholder='Please enter the new Password' />
                       </div>
                       <div>
-                          <input className='PASSchange' type="password" placeholder='Please confirm the new Password' />
+                          <input required className='PASSchange' type="password" placeholder='Please confirm the new Password' />
                       </div>
                   </div>
                   <div className='bothBtns'>

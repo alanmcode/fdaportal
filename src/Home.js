@@ -5,8 +5,7 @@ import Button from "./Components/Button";
 
 function Home(){
     return(
-        <div>
-                       
+        <div>       
             <div id="home_profile">    
                 <h2>Adya Aggarwal</h2>
                 <Link id="edit_det_btn" to='/profile_edit'>Edit my details</Link>
