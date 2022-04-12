@@ -28,6 +28,6 @@ select:hover{
     background-color:rgb(59, 59, 59);
 }
 
-nav img{
-    size: 20%;
+.lang_btns_c, .lang_btns_e{
+    margin-left: 5px;
 }

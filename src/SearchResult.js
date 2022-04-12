@@ -17,7 +17,6 @@ const SearchResults = () => {
                 <h4>UserID:</h4><p>adya123</p>
                 <h4>Email:</h4><p>adya.aggarwal@fdm.com</p>
                 <h4>Phone Number:</h4><p>9283529873</p>
-                <h4>Address:</h4><p>Flat 6, ABC Street <br></br>XYZ Road <br></br>London</p>
                 <Link id="message_btn" to='/searchResults'>Send a message</Link>  
 
         </div>

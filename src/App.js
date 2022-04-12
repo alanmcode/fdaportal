@@ -12,6 +12,8 @@ import { Route, Routes} from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import Search from './Search';
 import SearchResults from './SearchResult';
+import HomeChinese from './HomeChinese';
+
 
 
 function App() {
@@ -30,6 +32,7 @@ function App() {
         <Route path='/Resetpass' element={<Resetpass/>}/>
         <Route path='/search' element={<Search/>}/>
         <Route path='/searchResults' element={<SearchResults/>}/>
+        <Route path='/homeChinese' element={<HomeChinese/>}/>
       </Routes>
       
     

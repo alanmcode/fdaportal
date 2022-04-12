@@ -14,7 +14,8 @@ function Home(){
                 <h4>Phone Number:</h4><p>9283529873</p>
                 <h4>Address:</h4><p>Flat 6, ABC Street <br></br>XYZ Road <br></br>London</p>       
 
-                <Link id="edit_det_btn" to= '/Resetpass'>Reset Password</Link>           
+                <Link id="edit_det_btn" to= '/Resetpass'>Reset Password</Link>
+                           
             </div>
 
             <Link class = 'links' id = 'link_dashboard' to = "/dashboard"><h2>Dashboard</h2>Click here to view updates</Link>
@@ -29,6 +30,8 @@ function Home(){
             
             <Link class = 'links' id = 'link_request_leave' to = "/request_leave"><h2>Request Leave</h2>Click here to request a leave</Link>
             <Link class = 'links' id = 'link_search' to = "/search"><h2>Search for Colleagues</h2></Link>
+
+            <Link class = 'links' id = 'link_search' to = "/homeChinese"><h2>Change Language</h2></Link>
             
             
         </div>
