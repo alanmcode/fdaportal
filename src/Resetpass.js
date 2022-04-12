@@ -4,22 +4,21 @@ import {Link} from "react-router-dom"
 
 const Form = () => {
     return (
-      <div className='blogContainer'>
-          <form className='formBox'>
-              <h1 style={{textAlign:"center", color:"white"}}>Edit Details</h1>
-              <Link to = "/">Home</Link><br></br>
-              <Link to = "/dashboard">Dashboard</Link><br></br>
+      <div className='resetContainer'>
+          <form className='formBoxReset'>
+              <h1 style={{textAlign:"center", color:"white"}}>Reset Password</h1>
+        
               <section className='everythingInBox'>
                   <div className='FourBoxes'>
                       <div>
-                          <input required className='PASSchange' type="password" placeholder='Please enter the new Password' />
+                          <input required id="edit-det-box" className='subject' type="password" placeholder='Please enter the new Password' />
                       </div>
                       <div>
-                          <input required className='PASSchange' type="password" placeholder='Please confirm the new Password' />
+                          <input required id="edit-det-box" className='subject' type="password" placeholder='Please confirm the new Password' />
                       </div>
                   </div>
                   <div className='bothBtns'>
-                      <button className='submitBtn' style={{color:"white"}} type="submit" value="POST">SUBMIT</button>
+                      <button className='submitBtn' style={{color:"white"}} type="submit" value="POST">RESET</button>
                       <button className='cancelBtn' style={{color:"white"}} type="reset">CANCEL</button>
                   </div>
               </section>

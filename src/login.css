@@ -1,6 +1,4 @@
-body {
-    background: #95d6f5;
-}
+
 
 .login{
     width: 400px;
@@ -68,4 +66,8 @@ button.login-btn {
     color: #fff;
     margin-bottom: 5px;
 
+}
+
+button.login-btn:hover{
+    background-color: rgb(120, 0, 120);
 }

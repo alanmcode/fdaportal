@@ -1,27 +1,25 @@
 import React from "react";
-import './style.css'
 import {Link} from "react-router-dom"
 
 const Form = () => {
     return (
-      <div className='blogContainer'>
+      <div className='editContainer'>
           <form className='formBox'>
               <h1 style={{textAlign:"center", color:"white"}}>Edit Details</h1>
-              <Link to = "/">Home</Link><br></br>
-              <Link to = "/dashboard">Dashboard</Link><br></br>
+            
               <section className='everythingInBox'>
                   <div className='FourBoxes'>
                       <div>
-                          <input className='IDchange' type="text" placeholder='Please enter new ID' />
+                          <input id="edit-det-box" className='subject' type="text" placeholder='Please enter new ID'/>
                       </div>
                       <div>
-                          <input className='EMAILchange' type="email" placeholder='Please enter new Email' />
+                          <input id="edit-det-box" className='subject' type="email" placeholder='Please enter new Email' />
                       </div>
                       <div>
-                          <input className='NUMBERchange' type="number" placeholder='Please enter the new Phone Number' />
+                          <input id="edit-det-box" className='subject' type="number" placeholder='Please enter the new Phone Number' />
                       </div>
                       <div>
-                          <input className='ADDRESSchange' type="text" placeholder='Please enter the new Address' />
+                          <input id="edit-det-box" className='subject' type="text" placeholder='Please enter the new Address' />
                       </div>
                   </div>
                   <div className='bothBtns'>

@@ -28,6 +28,7 @@ function Home(){
             <Link class = 'links' id = 'link_prev_queries' to = "/prev_queries"><h2>Previous Queries</h2>Click here to view previous queries</Link>
             
             <Link class = 'links' id = 'link_request_leave' to = "/request_leave"><h2>Request Leave</h2>Click here to request a leave</Link>
+            <Link class = 'links' id = 'link_search' to = "/search"><h2>Search for Colleagues</h2></Link>
             
             
         </div>

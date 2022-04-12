@@ -10,6 +10,8 @@ import Request_Leave from './Request_Leave';
 import Resetpass from './Resetpass';
 import { Route, Routes} from 'react-router-dom';
 import Navbar from './Components/Navbar';
+import Search from './Search';
+import SearchResults from './SearchResult';
 
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
         <Route path='/request_leave' element={<Request_Leave/>}/>
         <Route path='/prev_queries' element={<Prev_Queries/>}/>
         <Route path='/Resetpass' element={<Resetpass/>}/>
+        <Route path='/search' element={<Search/>}/>
+        <Route path='/searchResults' element={<SearchResults/>}/>
       </Routes>
       
     

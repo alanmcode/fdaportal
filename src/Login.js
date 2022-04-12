@@ -40,7 +40,7 @@ function Login(){
                 <input required type="password" placeholder="Password"/>
             </div>
             
-            <button formaction="/" type='submit' value='POST'>Login</button>
+            <button class='login-btn' formaction="/" type='submit' value='POST'>Login</button>
         </div>
         </form>
     </div>

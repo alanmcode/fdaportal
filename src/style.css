@@ -1,7 +1,7 @@
 .links
 {
     background-color: rgb(243, 243, 243); 
-    padding: 2%;  
+    padding: 3%;  
     color: black;
     text-decoration: none;
     font-size: large;
@@ -9,24 +9,11 @@
     text-align: center;
 }
 
-#link_chatbot{
-    float: right;
-    margin-right: 5%;
-}
-
-#link_dashboard{
+#link_chatbot,#link_dashboard, #link_prev_queries,#link_request_leave, #link_search{
     float: right;
     margin-right: 3%;
-}
-
-#link_prev_queries{
-    float: right;
-    margin-right: 5%;
-}
-
-#link_request_leave{
-    float: right;
-    margin-right: 5%;
+    min-height: 150px;
+    min-width: 230px;
 }
 
 #home_profile{
@@ -38,10 +25,10 @@
     float: left;
 }
 
-#home_profile h4{
+#home_profile h4, #searchResultContainer h4{
     margin-bottom: 0%;
 }
-#home_profile h2{
+#home_profile h2, #searchResultContainer h2{
     margin-top: 0%;
 }
 
@@ -53,8 +40,50 @@ Button,#edit_det_btn{
     text-decoration: none;   
 }
 
-Button:hover, #edit_det_btn:hover{
+Button:hover, #edit_det_btn:hover, #search_btn:hover, #message_btn:hover{
     background-color: rgb(120, 0, 120);  
+}
+
+#search_btn{
+    background-color: #49C8FF;
+    color: white;
+    border: none;
+    padding: 1%; 
+    margin-left: 3%;
+    border-radius: 5px;
+    text-decoration: none;   
+}
+
+#message_btn{
+    background-color: #49C8FF;
+    color: white;
+    border: none;
+    padding: 1%; 
+    border-radius: 5px;
+    text-decoration: none;   
+}
+
+.searchBox{
+    width: 79.5%;
+    margin:1em;
+    height: 40px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+#searchContainer{
+    background-color: rgb(243, 243, 243);
+    padding: 1%;
+    margin: 3%;
+}
+
+#searchh3{
+    margin: 3%;
+}
+
+#searchResultContainer{
+    
+    margin: 3%;
 }
 
 #prev_queries_tbl, th, td {
@@ -73,8 +102,6 @@ Button:hover, #edit_det_btn:hover{
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
 
-
-
 /*---------------KRISI'S EDITED CSS-------------------*/
 
 #updates :root {
@@ -87,7 +114,6 @@ Button:hover, #edit_det_btn:hover{
     
     --box-shadow:0 2rem 3rem var(--color-light);
 }
-
 
 #updates * {
     margin: 0;
@@ -109,7 +135,6 @@ Button:hover, #edit_det_btn:hover{
     font-family: poppins, sans-serif;
     font-size: 0.88rem;
     background-color: rgb(243, 243, 243);
-    
 }
 
 #updates a {
@@ -125,7 +150,6 @@ Button:hover, #edit_det_btn:hover{
     font-weight: 800;
     font-size: 1.6rem;
 }
-
 
 
 #updates small{
@@ -157,7 +181,6 @@ Button:hover, #edit_det_btn:hover{
     margin-top: 1.4rem;
     display: block;
     position: absolute;
-
 }
 
 #updates .Dashboard .recent-updates{
@@ -187,3 +210,7 @@ Button:hover, #edit_det_btn:hover{
     margin-bottom: 1rem;
 }
 
+#edit-det-box
+{
+    margin-left: 100px;
+}
