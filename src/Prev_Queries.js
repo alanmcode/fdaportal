@@ -31,26 +31,26 @@ function Prev_Queries(){
                     <td>01-02-2022 11:40</td>
                     <td>Can not share screen</td>
                     <td>Yes</td>
-                    <td>Adya Aggarwal</td>
+                    <td>Sasi</td>
                     <td>4/5</td>
                 </tr>
 
                 
                 <tr>
-                    <td>General</td>
-                    <td>15-03-2022 15:20</td>
-                    <td>Need help with editing personal details</td>
+                    <td>Technical</td>
+                    <td>21-03-2022 16:11</td>
+                    <td>My computer isn't turning on</td>
                     <td>Yes</td>
-                    <td>Adya</td>
+                    <td>Alan</td>
                     <td>5/5</td>
                 </tr>
 
                 <tr>
                     <td>Technical</td>
-                    <td>01-02-2022 11:40</td>
-                    <td>Can not share screen</td>
+                    <td>01-04-2022 01:33</td>
+                    <td>Microsoft Teams is down</td>
                     <td>Yes</td>
-                    <td>Adya Aggarwal</td>
+                    <td>Krisi</td>
                     <td>4/5</td>
                 </tr>
 

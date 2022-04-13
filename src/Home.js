@@ -30,8 +30,6 @@ function Home(){
             
             <Link class = 'links' id = 'link_request_leave' to = "/request_leave"><h2>Request Leave</h2>Click here to request a leave</Link>
             <Link class = 'links' id = 'link_search' to = "/search"><h2>Search for Colleagues</h2></Link>
-
-            <Link class = 'links' id = 'link_search' to = "/homeChinese"><h2>Change Language</h2></Link>
             
             
         </div>
