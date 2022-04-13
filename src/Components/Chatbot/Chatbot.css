@@ -9,7 +9,7 @@
   }
 
   .editContainer{
-    height: 100vh;
+    height: 150vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.192), rgba(0, 0, 0, 0.486)), url(../../img/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -17,7 +17,7 @@
   }
 
   .resetContainer{
-    height: 100vh;
+    height: 150vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.726)), url(../../img/binary.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -41,7 +41,7 @@
   .formBoxReset{
     background-color: rgba(251, 251, 251, 0.247);
     width: 50%;
-    height: 35%;
+    height: 55%;
     border-radius: 10px;
     margin: 150px auto;
     position: absolute;
@@ -49,13 +49,12 @@
     bottom: 0;
     right: 0;
     left: 0;
-    
   }
 
   .subject{
     width: 79.5%;
     margin:1em;
-    height: 40px;
+    height: 35px;
     border-radius: 5px;
     border-color: transparent;
     
@@ -63,7 +62,7 @@
   .queryBox{
     width: 80%;
     margin: 1em;
-    height: 150px;
+    height: 120px;
     border-radius: 5px;
     border-color: transparent;
     padding-top: 2px;
@@ -72,26 +71,26 @@
     margin-left: 15%;
   }
   .submitBtn{
-    width: 85px;
-    height: 40px;
+    width: 75px;
+    height: 30px;
     border: transparent;
-    margin-right: 5px;
+    margin-right: 3px;
     border-radius: 5px;
     background-color: rgb(0, 208, 255);
     
   }
 
   .cancelBtn{
-    width: 85px;
-    height: 40px;
+    width: 75px;
+    height: 30px;
     border: transparent;
-    margin-left: 5px;
+    margin-left: 3px;
     border-radius: 5px;
     background-color: rgb(0, 208, 255);
   }
 
   .bothBtns{
-    width: 19%;
+    width: 15%;
     margin: 0 auto;
     
   }

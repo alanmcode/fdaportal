@@ -10,13 +10,13 @@ const Form = () => {
               <section className='everythingInBox'>
                   <div className='ThreeBoxes'>
                       <div>
-                          <input required className='STARTdate' type="date" placeholder='Start of leave (DD/MM/YY)' />
+                          <input required className='subject' type="date" placeholder='Start of leave (DD/MM/YY)' />
                       </div>
                       <div>
-                          <input required className='ENDdate' type="date" placeholder='End of leave (DD/MM/YY)' />
+                          <input required className='subject' type="date" placeholder='End of leave (DD/MM/YY)' />
                       </div>
                       <div>
-                          <input required className='REASON' type="text" placeholder='State reason for leave' />
+                          <input required className='subject' type="text" placeholder='State reason for leave' />
                       </div>
                   </div>
                   <div className='bothBtns'>
